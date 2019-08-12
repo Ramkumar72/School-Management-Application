@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #34495e;
+}
+.m{
+	padding-top: 100px;
+	font: 200px;
+	color: white;
+}
+.logopic{padding-left: 600px;padding-top: 50px;}
+h1{font-size: 30px;color: white;text-align: center;padding-top: 50px;}
+
+.menu{ width: 100%;height: :500px; }
+.menu ul{ width: 100%;height: 100px;
+display: flex;flex-direction: column;justify-content: space-around;padding-left: 600px;}
+.menu ul li{ list-style: none;font: 25px;font-weight: bold; }
+.menu ul li:hover{background-color: grey;}
+.menu ul ul { display: none; }
+.menu ul li:hover >ul{display:inline-block;}
+.menu ul a{text-decoration: none;color:white;}
